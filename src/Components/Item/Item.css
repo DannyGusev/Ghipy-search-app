@@ -1,0 +1,44 @@
+.item_main{
+    background-color: #282c34;
+    min-height: 95vh;
+    color: white;
+}
+.item_title{
+    position: relative;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    padding-top: 5vh;
+    height: 100%;
+    text-align: center;
+    font-size: 3vw;
+}
+.item_content{
+    width: 80%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+.item_image {
+    width: 60%;
+    height: 60%;
+    margin:auto;
+}
+.item_image > img {
+    width: 100%;
+    height: 100%;
+}
+.item_data{
+    margin-top: 5vh;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    height: 20vh;
+    border: 1px solid white;
+}
+.item_data > div{
+    margin-top: 1vh;
+    text-align: center;
+    font-size: 2vw;
+}

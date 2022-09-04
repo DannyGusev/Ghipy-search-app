@@ -1,0 +1,19 @@
+.items_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 2em;
+    
+}
+.items_box :first-child {
+    align-self: center;
+}
+.items_card{
+    width:30vw;
+    height:25vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+.items_card > img {
+    width: 100%;
+    height: 100%;
+}
